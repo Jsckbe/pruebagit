@@ -1,0 +1,35 @@
+
+1. Crear repositorio desde git hub bash here.
+- Primero se busca la carpeta de git a subir
+
+$ ls								(mostrará las carpetas que se encuentran ahí)
+$ git init							(inicia un repositorio vacío)  (master)
+$ git status						(ver estado) estará en la rama master
+$ git add <file> ó git add .				(agregar archivos)
+$ git commit -m "Subiendo archivos..."		(se agregan los commits)
+$ git status
+$ git push ó git push origin main    		(En caso no se actualizen los commits en la pagina de github)
+
+
+(1er paso)
+- Para subir a la pagina de github:
+git remote add origin https://github.com/Jsckbe/encriptador-challenge.git
+//git branch -M main	(no necesario)										*No es necesario*
+git push origin main (main o master)											//git push -u origin main 	-u: opcional 	
+Fin
+(Con esto ya deberia subirse al github)
+
+
+
+//Si es primera vez, si piden correo
+$ git config --global user.email "jackbe...@gmail.com"
+$ git config --global user.name "Jack"
+$ git status						(branch master)
+
+extra:
+$ git log
+
+-----
+15/05/2023
+
+$ git pull origin master    (Si sale error de que no se puede subir archivos)
