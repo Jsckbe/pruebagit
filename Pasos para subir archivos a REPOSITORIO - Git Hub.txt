@@ -46,3 +46,5 @@ $ git log  		    (Para ver el historial de cambios y commits del proyecto)
 $ git log --oneline	    (Ver mismo historial de forma resumida)
 
 ---------------------------------------------------
+
+$ git pull  		     (Verificar si tenemos el proyecto actualizado - Cambios en 			      el github lo actualiza en el proyecto local)
