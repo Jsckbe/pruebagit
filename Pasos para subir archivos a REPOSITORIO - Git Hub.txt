@@ -33,3 +33,16 @@ $ git log
 15/05/2023
 
 $ git pull origin master    (Si sale error de que no se puede subir archivos)
+
+
+--------------------------------------------------
+Git clone y git log
+- clonar archivos git a local (carpeta de PC)
+$ git clone https://github.com/Jsckbe/encriptador-challenge.git
+$ ls			    (Ver los archivos clonados)
+$ cd encriptador-challenge  (ir a carpeta clonada de git a local)
+$ git log  		    (Para ver el historial de cambios y commits del proyecto)
+
+$ git log --oneline	    (Ver mismo historial de forma resumida)
+
+---------------------------------------------------
